@@ -1,0 +1,22 @@
+{
+  "version-2.0.0-docs": {
+    "Docusaurus": [
+      "version-2.0.0-doc1"
+    ],
+    "First Category": [
+      "version-2.0.0-doc2"
+    ],
+    "Second Category": [
+      "version-2.0.0-doc3"
+    ],
+    "Third Category": [
+      "version-2.0.0-ignitefacts"
+    ]
+  },
+  "version-2.0.0-docs-other": {
+    "First Category": [
+      "version-2.0.0-doc4",
+      "version-2.0.0-doc5"
+    ]
+  }
+}
