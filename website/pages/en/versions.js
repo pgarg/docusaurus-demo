@@ -33,7 +33,11 @@ class Versions extends React.Component {
                 <tr>
                   <th>{latestVersion}</th>
                   <td>
-                    <a href={''}>Documentation</a>
+                    <a href={
+                      siteConfig.baseUrl +
+                      "docs/" +
+                      "doc1.html"
+                    }>Documentation</a>
                   </td>
                   <td>
                     <a href={''}>Release Notes</a>
@@ -51,7 +55,12 @@ class Versions extends React.Component {
                 <tr>
                   <th>master</th>
                   <td>
-                    <a href={''}>Documentation</a>
+                    <a href={
+                      siteConfig.baseUrl +
+                      "docs/" +
+                      "next" +
+                      "/doc1.html"
+                    }>Documentation</a>
                   </td>
                   <td>
                     <a href={''}>Release Notes</a>
@@ -69,7 +78,12 @@ class Versions extends React.Component {
                       <tr>
                         <th>{version}</th>
                         <td>
-                          <a href={''}>Documentation</a>
+                          <a href={
+                            siteConfig.baseUrl +
+                              "docs/" +
+                              version +
+                              "/doc1.html"
+                            }>Documentation</a>
                         </td>
                         <td>
                           <a href={''}>Release Notes</a>
